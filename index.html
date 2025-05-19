@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Configuración general de la página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Línea 34 - Ciudad de Limpio S.R.L</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Enlace a los íconos Remix -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Encabezado: Logo a la izquierda y menú hamburguesa (en mobile) a la derecha -->
+    <header>
+      <div class="logo">
+        <h1>LÍNEA 34</h1>
+        <h3>Ciudad de Limpio S.R.L</h3>
+      </div>
+      <button class="hamburger-menu" id="menu-btn" aria-label="Abrir menú">
+        <i class="ri-menu-line"></i>
+      </button>
+      <nav class="menu" id="menu">
+        <ul>
+          <li><a href="#Información">Información</a></li>
+          <li><a href="#Recorrido">Recorrido</a></li>
+          <li><a href="#Ramales">Ramales</a></li>
+          <li><a href="#Horarios">Horarios</a></li>
+          <li><a href="#Pasajes">Pasajes</a></li>
+          <li><a href="#Ubicación">Ubicación</a></li>
+          <li>
+            <label for="checkbox" class="toggler">
+              <input type="checkbox" id="checkbox" />
+              <span class="ball"></span>
+              <i class="ri-sun-line sun"></i>
+              <i class="ri-moon-line moon"></i>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="Información" class="hero animate-on-scroll">
+        <div class="hero-content">
+          <h2>🚌 Información General</h2>
+          <p>La Línea 34 es operada por Ciudad de Limpio S.R.L, conectando la ciudad de Limpio con Asunción.</p>
+        </div>
+      </section>
+
+      <section id="Recorrido" class="seccion animate-on-scroll">
+        <h2>📍 Recorrido</h2>
+        <ul>
+          <li>B° San José</li>
+          <li>Ruta Limpio</li>
+          <li>Madame Lynch</li>
+          <li>Microcentro de Asunción</li>
+          <li>Terminal de Ómnibus</li>
+          <li>Av. Eusebio Ayala (Hospital de Trauma)</li>
+          <li>Av. Carlos A. López</li>
+        </ul>
+      </section>
+
+      <section id="Ramales" class="seccion animate-on-scroll">
+        <h2>🧭 Ramales y Rutas</h2>
+        <div class="grid-cards">
+          <div class="card animate-on-scroll">
+            <h3>Piquete Cué – Asunción</h3>
+            <p>
+              Inicio: Comisaría Villa Madrid<br />
+              Fin: Av. Pozo Favorito<br />
+              Duración: 79 min
+            </p>
+            <img src="MAPA2.png" alt="Mapa Piquete Cué" class="mini-mapa" data-url="https://umap.openstreetmap.fr/es/map/mapa-sin-titulo_1223988" />
+          </div>
+          <div class="card animate-on-scroll">
+            <h3>Villa Madrid – Asunción</h3>
+            <p>
+              Inicio: Av. Carlos A. López<br />
+              Fin: Senador Velázquez<br />
+              Duración: 81 min
+            </p>
+            <img src="VILLAMADRID.png" alt="Mapa Villa Madrid" class="mini-mapa" data-url="https://umap.openstreetmap.fr/es/map/mapa-sin-titulo_1225862#12/-25.2343/-57.5364" />
+          </div>
+          <div class="card animate-on-scroll">
+            <h3>Don Bosco – Asunción</h3>
+            <p>
+              Inicio: Centro Educativo Niño Jesús Nº5<br />
+              Fin: Pozo Favorito 1498
+            </p>
+            <img src="DON BOSTO.png" alt="Mapa Don Bosco" class="mini-mapa" data-url="https://umap.openstreetmap.fr/es/map/mapa-sin-titulo_1225859#12/-25.2259/-57.5474" />
+          </div>
+          <div class="card animate-on-scroll">
+            <h3>Colonia Juan de Salazar – Asunción</h3>
+            <p>
+              Inicio: Fernando Magallanes<br />
+              Fin: Pozo Favorito 1498
+            </p>
+            <img src="MAPA2.png" alt="Mapa Colonia Juan" class="mini-mapa" data-url="https://www.google.com/maps/d/embed?mid=1sclLm38i3LtgN_kB5IzBaivDlHjknbo&hl=es&ehbc=2E312F" />
+          </div>
+          <div class="card animate-on-scroll">
+            <h3>Salado – Asunción</h3>
+            <p>Ruta alternativa con paradas intermedias</p>
+            <img src="MAPA2.png" alt="Mapa Salado" class="mini-mapa" data-url="https://www.google.com/maps/d/embed?mid=1sclLm38i3LtgN_kB5IzBaivDlHjknbo&hl=es&ehbc=2E312F" />
+          </div>
+        </div>
+      </section>
+
+      <section id="Horarios" class="seccion animate-on-scroll">
+        <h2>⏰ Horarios</h2>
+        <ul>
+          <li>Servicio diario (lunes a domingo)</li>
+          <li>Horario general: 24 horas</li>
+          <li>Frecuencia: cada 10 a 15 minutos</li>
+          <li>Duración: 79 a 93 minutos</li>
+        </ul>
+      </section>
+
+      <section id="Pasajes" class="seccion animate-on-scroll">
+        <h2>💵 Tarifas</h2>
+        <ul>
+          <li><strong>General:</strong> Gs. 3.400</li>
+          <li><strong>Estudiantil:</strong> Gs. 1.800</li>
+          <li><strong>Diferenciada:</strong> Gs. 2.300</li>
+          <li><strong>Interurbana:</strong> Variable</li>
+        </ul>
+      </section>
+
+      <section id="Ubicación" class="seccion animate-on-scroll">
+        <h2>📍 Ubicación de la Terminal</h2>
+        <p>Podés encontrar la terminal principal de la Línea 34 en Limpio:</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.82486714055!2d-57.470014600000006!3d-25.175390699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da4a9c307f109%3A0x25888b85acd729f3!2sCiudad%20de%20Limpio%20SRL%20Linea%2034!5e0!3m2!1ses-419!2spy!4v1747237354238!5m2!1ses-419!2spy"
+          width="910"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Ubicación de la terminal en el mapa"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#Información">Información</a></li>
+          <li><a href="#Recorrido">Recorrido</a></li>
+          <li><a href="#Ramales">Ramales</a></li>
+          <li><a href="#Horarios">Horarios</a></li>
+          <li><a href="#Pasajes">Pasajes</a></li>
+          <li><a href="#Ubicación">Ubicación</a></li>
+        </ul>
+      </nav>
+      <p>© 2025 Línea 34 - Grupo Limpio | Página informativa sin fines comerciales</p>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://chat.whatsapp.com/Di1BsKMTm1ML8xbKFlGSLw" target="_blank" class="whatsapp-btn" title="Contactar por WhatsApp">
+      <img src="https://www.svgrepo.com/show/452133/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon" />
+    </a>
+
+    <!-- Modal para visualizar mapas -->
+    <div id="modal-mapa" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.7); z-index:1000; align-items:center; justify-content:center;">
+      <div style="position:relative; width:90%; height:90%;">
+        <button onclick="cerrarModal()" style="position:absolute; top:10px; right:10px; z-index:1001; background:red; color:white; border:none; padding:10px; cursor:pointer;">
+          Cerrar
+        </button>
+        <iframe id="iframe-mapa" style="width:100%; height:100%; border:none;"></iframe>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+      // Menú hamburguesa: Alterna la visibilidad del menú y cambia el ícono.
+      const menuBtn = document.getElementById("menu-btn");
+      const menu = document.getElementById("menu");
+      menuBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        if (menu.classList.contains("active")) {
+          menuBtn.innerHTML = `<i class="ri-close-line"></i>`;
+          menuBtn.setAttribute("aria-label", "Cerrar menú");
+        } else {
+          menuBtn.innerHTML = `<i class="ri-menu-line"></i>`;
+          menuBtn.setAttribute("aria-label", "Abrir menú");
+        }
+      });
+
+      // Cierra automáticamente el menú al hacer clic en cualquier enlace del menú.
+      document.querySelectorAll("#menu a").forEach(link => {
+        link.addEventListener("click", () => {
+          if (menu.classList.contains("active")) {
+            menu.classList.remove("active");
+            menuBtn.innerHTML = `<i class="ri-menu-line"></i>`;
+            menuBtn.setAttribute("aria-label", "Abrir menú");
+          }
+        });
+      });
+
+      // Modal para mapas: Abre y cierra el modal.
+      function abrirModal(url) {
+        document.getElementById("iframe-mapa").src = url;
+        document.getElementById("modal-mapa").style.display = "flex";
+      }
+      function cerrarModal() {
+        document.getElementById("modal-mapa").style.display = "none";
+        document.getElementById("iframe-mapa").src = "";
+      }
+      document.querySelectorAll('.mini-mapa').forEach(img => {
+        img.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const url = img.getAttribute('data-url');
+          abrirModal(url);
+        });
+      });
+
+      // Modo oscuro: Alterna la clase "modo-oscuro" en el <body>.
+      const checkbox = document.getElementById('checkbox');
+      checkbox.addEventListener('change', () => {
+        document.body.classList.toggle('modo-oscuro');
+      });
+
+      // Microinteracción "fade-in": Observa cada elemento con la clase "animate-on-scroll" y agrega "visible" al entrar al viewport.
+      const scrollObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, { threshold: 0.15 });
+      document.querySelectorAll('.animate-on-scroll').forEach(el => {
+        scrollObserver.observe(el);
+      });
+    </script>
+  </body>
+</html>
